@@ -17,6 +17,7 @@ To write the action you must follow the following steps:
 3. Create a metadata file as shown below:
 
 ![](images/pl1.png)
+
 **VERY IMPORTANT:** The name of the file must be: **action.yml**
 
 4. Add actions toolkit packages running the following on your repo directory.
