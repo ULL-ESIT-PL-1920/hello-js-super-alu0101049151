@@ -15,6 +15,7 @@ To write the action you must follow the following steps:
 1. First you have to set up a **public** repo where you will put the js code of the action.
 2. Then you have to init the repo with `npm init -y`.
 3. Create a metadata file as shown below:
+
 ![](images/pl1.png)
 **VERY IMPORTANT:** The name of the file must be: **action.yml**
 
@@ -66,6 +67,7 @@ Once we have done this, the next step is testing on the other repo.
 3. Inside this directory, create another called "workflows". **Is very important that the name be 'workflows'**.
 
 4. Inside the `workflows` directory, create a file "main.yml" where we'll put the workflow code specifying the action that we want to use as shown below:
+
 ![](images/pl4.png)
 
 5. Finally, add, commit and push all to the repo and check the **"actions"** section of the repo:
